@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5217
+
+vim-clipper provides integration between Vim and Clipper
+(https://github.com/wincent/clipper), which is an OS X "launch agent" that
+runs in the background providing a service that exposes the local clipboard to
+tmux sessions and other processes running both locally and remotely.
+
+Specifically, vim-clipper provides a |:Clip| command, to send the last-yanked
+text to Clipper, and it sets up a <leader>y mapping that calls |:Clip|.
